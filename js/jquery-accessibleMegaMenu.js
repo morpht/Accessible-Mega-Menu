@@ -876,6 +876,7 @@ limitations under the License.
                         // Add attributes to sub nav.
                         topnavitempanel.attr({
                             "role": "region",
+                            "aria-expanded": false,
                             "aria-hidden": true
                         })
                         .addClass(settings.panelClass)
